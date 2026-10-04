@@ -4,7 +4,7 @@ use std::io::{self, Write};
 use rand::prelude::*;
 
 fn main() {
-    println!("Угадай число!");
+    println!("Давай сыграем в игру! Угадай число!");
 
     let secret_number = rand::rng().random_range(1..=100);
 
