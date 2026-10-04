@@ -8,8 +8,6 @@ fn main() {
 
     let secret_number = rand::rng().random_range(1..=100);
 
-    // println!("Секретное число: {secret_number}");
-
     loop {
         print!("Пожалуйста, введите ваше число: ");
         io::stdout().flush().unwrap();
