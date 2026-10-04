@@ -28,6 +28,7 @@ fn main() {
             Ordering::Greater => println!("Многовато, давай поменьше.\n"),
             Ordering::Equal => {
                 println!("Ты угадал! Это ПОБЕДА!!!");
+                println!("На, держи конфетку 🍬") 
                 break;
             }
         }
